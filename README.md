@@ -2,4 +2,4 @@
 
 2. Extract the zip file copy all the files inside the extracted file and paste it to the folder you have created "inventory".
 
-3. Create a database named: "inventory" and import the sql file named : "db_scan.sql".
+3. Create a database named: "inventory" and import the sql file named : "inventory.sql".
