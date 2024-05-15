@@ -1,3 +1,3 @@
 <?php
-$conn = mysqli_connect ('localhost', 'root', 'fundador142', 'inventory') or die('Unable to connect');
+$conn = mysqli_connect ('localhost', 'root', '', 'inventory') or die('Unable to connect');
 ?>
