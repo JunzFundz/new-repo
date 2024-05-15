@@ -1,0 +1,15 @@
+.container-in{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    box-sizing: border-box;
+    width:100%;
+    max-width:none;
+    padding:0;
+}
+.st-box{
+      grid-column:1/2;
+      line-height: 20px;
+      font-size: 20px;
+      height: 98vh;
+      background-color: rgb(72, 77, 72);
+  }

@@ -1,0 +1,115 @@
+body {
+	background: #345b73;
+	overflow: hidden;
+}
+
+.container-II {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	box-sizing: border-box;
+	/* height: 100vh; */
+	width: 100%;
+	max-width: none;
+	padding: 0;
+}
+
+.childcon {
+	margin: 0 !important;
+	padding: 0;
+	grid-column: 1/2;
+	height: 100vh;
+	background-color: #345b73;
+}
+
+.child {
+	margin: 0 !important;
+	padding: 0;
+	grid-column: 2/8;
+	height: 100vh;
+	overflow: auto;
+	/* background-image: url('../img/bg.jpg');
+		background-position: center;
+		background-size: contain;
+		background-repeat: no-repeat; */
+}
+
+.username-style {
+	font-family: "Merriweather", serif;
+	font-family: "Niramit", sans-serif;
+	margin-left: 20px;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.menu-buttom li {
+	list-style: none;
+}
+
+.menu-buttom li a {
+	font-family: "Lato", sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fbfbfb;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex !important;
+	justify-content: center !important;
+}
+
+.new1 li {
+	list-style: none;
+}
+
+.new1 li a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "Lato", sans-serif;
+	display: flex !important;
+	justify-content: center !important;
+	font-size: 0.9rem;
+}
+
+.badge-count {
+	left: 75% !important;
+}
+
+.badge-count {
+	top: 15px !important;
+}
+
+.accordion-header {
+	display: grid;
+	place-content: center;
+}
+
+.display-4 {
+	color: white;
+}
+
+#myTable_wrapper{
+	padding-inline: 2rem;
+}
+
+label {
+	color: rgb(255, 255, 255);
+}
+
+.box label {
+	color: rgb(0, 0, 0);
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	line-height: 50px;
+}
+
+table,
+tr,
+th,
+td {
+	border: 2px;
+	border-style: ridge;
+}

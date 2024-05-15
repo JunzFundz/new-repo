@@ -1,0 +1,209 @@
+
+
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../image/anime.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	min-width: 100%;
+
+
+}
+
+.container form {
+	color: rgb(255, 255, 255);
+	background-color: rgba(198, 155, 218, 0.454);
+	width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(239, 239, 239, 0.487), 0 6px 20px 0 rgba(163, 0, 251, 0.408);
+}
+ 
+.box {
+	width: 700px;
+	color: rgb(77, 170, 252);
+
+}
+
+.container table {
+	color: rgb(255, 255, 255);
+	background-color: rgba(198, 155, 218, 0.454);
+	padding: 10px;
+	border-radius: 10px 10px;
+	box-shadow: 0 5px 15px 0 rgba(78, 71, 71, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.link-right {
+	
+	display: flex;
+	justify-content: flex-end;
+}
+
+.link-primary{
+
+	padding-right: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(255, 254, 254);
+	text-shadow: 2px 2px rgba(238, 130, 238, 0.429);
+	border: 2px  rgb(204, 16, 251);
+
+}
+
+.view{
+
+	padding-left: 20px;
+
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px rgba(238, 130, 238, 0.429);
+	border: 2px  rgb(204, 16, 251);
+	
+
+
+
+}
+
+
+
+.display-4{
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+	color: rgb(255, 254, 254);
+	text-shadow: 2px 2px violet;
+	border: 2px  rgb(204, 16, 251);
+}
+
+.Main{
+
+	border: solid;
+	border-radius: 70px;
+	border-style: groove;
+	color: rgb(255, 255, 255);
+	background-color: rgb(85, 107, 246);
+	max-width: 200px;
+	width: 20%;
+	padding: 10px;
+
+	font-size: 20px;
+	min-height: 50px;
+	margin: auto;
+	margin-top: 10px;
+	height: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	-webkit-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+
+.Main:hover{
+	background-color: rgb(246, 80, 80);
+	color: rgb(85, 107, 246);
+}
+
+.bg {
+
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(54, 56, 63, 0.7),rgba(4,9,30,0.7)), url(../image/anime.gif); 
+	background-size: cover;
+	orientation: landscape;
+	background-position: center;
+	position: relative;
+	
+
+}
+.create,.delete,.update {  
+
+	width: auto; 
+	text-align: right; 
+	padding-right: 50px;
+	background-size: 20px;
+	
+	
+}  
+
+
+
+	img {  
+	
+	padding-top: 100px;
+	position: relative;
+	max-width: 4%;  
+	height: auto;  
+}
+
+.text{
+
+	color: rgb(240, 240, 240);
+	text-shadow: 3px 2px rgba(255, 26, 255, 0.396);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 60px;
+	font-weight: 150px;
+	position: absolute;
+	top: 30%;
+  	width: 100%;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+
+		}
+
+	body{
+
+	background-image: url(../image/NEW.gif);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+		}
+
+	.main{
+		color: rgb(240, 240, 240);
+	font-family: monospace;
+	font-size: 10px;
+	position: absolute;
+	top: 40%;
+  	width: 100%;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+	letter-spacing: 1.20em;
+	}
+
+
+	.blue2,.white2,.red2,.green2{
+		font-size: 20px;
+	}
+
+	.blue,.white,.red,.green{
+		padding: 10px;
+	}
+
+	.blue2{
+		color: rgba(53, 40, 238, 0.672);
+	}
+
+	.green2{
+
+		color: rgba(20, 169, 20, 0.6);
+	}
+
+	.red2{
+
+		color:rgba(233, 29, 29, 0.58);
+	}
+
+	.white2{
+
+		color:rgba(222, 252, 28, 0.751);
+	}
